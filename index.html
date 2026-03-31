@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Portfolio - Tech Startup Style</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="#hero" class="logo">Portfolio</a>
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to My Portfolio</h1>
+                <p class="hero-subtitle">Innovative Developer & Tech Enthusiast</p>
+                <a href="#about" class="cta-btn">Learn More</a>
+            </div>
+            <div class="hero-bg" style="background-image: url('assets/images/hero-bg.jpg');"></div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <img src="assets/images/profile.jpg" alt="Profile" class="about-img">
+                    <div class="about-text">
+                        <p>I'm a passionate developer with a love for creating modern, user-friendly web experiences. With expertise in front-end technologies, I build responsive websites that drive results.</p>
+                        <p>Let's collaborate on your next project!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <h3>HTML & CSS</h3>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h3>JavaScript</h3>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h3>React</h3>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h3>Node.js</h3>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="assets/images/project1.jpg" alt="Project 1">
+                        <h3>E-Commerce Site</h3>
+                        <p>A responsive online store built with React and Stripe.</p>
+                        <a href="#" class="project-link">View Live</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="assets/images/project2.jpg" alt="Project 2">
+                        <h3>Portfolio App</h3>
+                        <p>A dynamic portfolio using vanilla JS and CSS animations.</p>
+                        <a href="#" class="project-link">View Live</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="assets/images/project3.jpg" alt="Project 3">
+                        <h3>Weather Dashboard</h3>
+                        <p>Real-time weather app with API integration.</p>
+                        <a href="#" class="project-link">View Live</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <form class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit" class="cta-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Modern Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
